@@ -1,0 +1,1559 @@
+[
+  {
+    "id": "f1a2b3c4-5d6e-4f70-8a91-1b2c3d4e5f60",
+    "image": "images/products/apple-airpods-max-black.jpg",
+    "name": "Apple AirPods Max - Space Gray",
+    "rating": {
+      "stars": 4.5,
+      "count": 1284
+    },
+    "priceCents": 54900,
+    "keywords": [
+      "headphones",
+      "airpods",
+      "apple",
+      "audio",
+      "over-ear"
+    ],
+    "category": "audio",
+    "description": "A premium over-ear headphone with a sleek matte space-gray finish. Mesh-canopy headband distributes weight evenly, while the plush cushioned ear cups swivel to fit comfortably. Aluminum ear cup housings and stainless steel telescoping arms give it a solid, high-end feel, held effortlessly with one hand."
+  },
+  {
+    "id": "a2b3c4d5-6e7f-4801-9a02-2c3d4e5f6071",
+    "image": "images/products/jordan-velocity-duffle-bag-white.jpg",
+    "name": "Air Jordan Velocity Duffle Bag - White",
+    "rating": {
+      "stars": 4.5,
+      "count": 342
+    },
+    "priceCents": 8500,
+    "keywords": [
+      "bags",
+      "duffle bag",
+      "jordan",
+      "gym bag",
+      "travel"
+    ],
+    "category": "bags",
+    "description": "A bold white duffle bag with black paneling along the base and a large red Jumpman graphic stitched across the front alongside the AIR JORDAN wordmark. Dual black webbing handles wrap the top, a side zip pocket adds extra storage, and the sturdy structured shape holds it upright for easy packing."
+  },
+  {
+    "id": "b3c4d5e6-7f80-4912-ab13-3d4e5f607182",
+    "image": "images/products/affordable-classic-watch-brown-strap.jpg",
+    "name": "Classic Chronograph Watch - Brown Leather Strap",
+    "rating": {
+      "stars": 4,
+      "count": 198
+    },
+    "priceCents": 3999,
+    "keywords": [
+      "watches",
+      "chronograph",
+      "leather strap",
+      "mens watch",
+      "affordable"
+    ],
+    "category": "watches",
+    "description": "An elegant analog watch featuring a dark gunmetal case ringed with a textured stone-effect bezel. Three sub-dials sit on a charcoal face with silver roman numeral markers, and a rich brown leather strap with contrast stitching completes the sophisticated, budget-friendly look."
+  },
+  {
+    "id": "c4d5e6f7-8091-4a23-bc24-4e5f60718293",
+    "image": "images/products/apple-airpods-classic-blue-case.jpg",
+    "name": "Apple AirPods with Charging Case - Sky Blue",
+    "rating": {
+      "stars": 4.5,
+      "count": 976
+    },
+    "priceCents": 12900,
+    "keywords": [
+      "airpods",
+      "earbuds",
+      "apple",
+      "audio",
+      "wireless"
+    ],
+    "category": "audio",
+    "description": "Classic wireless earbuds in a glossy sky-blue finish, shown resting beside their matching open charging case. The compact case features a silver Apple logo on the lid, with each earbud's stem and charging contacts subtly visible, all set against a reflective blue surface."
+  },
+  {
+    "id": "d5e6f708-91a2-4b34-cd35-5f6071829304",
+    "image": "images/products/apple-airpods-pro-mint-green-case.jpg",
+    "name": "Apple AirPods Pro - Mint Green",
+    "rating": {
+      "stars": 4.5,
+      "count": 1532
+    },
+    "priceCents": 17900,
+    "keywords": [
+      "airpods pro",
+      "earbuds",
+      "apple",
+      "audio",
+      "wireless"
+    ],
+    "category": "audio",
+    "description": "A pastel mint-green pair of noise-cancelling earbuds nestled in their matching glossy case, lid open to reveal the silicone-tipped buds inside. A soft green Apple logo glows on the case exterior, photographed against a calming teal backdrop."
+  },
+  {
+    "id": "e6f70819-a2b3-4c45-de46-60718293a415",
+    "image": "images/products/mens-travel-laptop-backpack-gray.jpg",
+    "name": "Men's Travel Laptop Backpack - Charcoal Gray",
+    "rating": {
+      "stars": 4.5,
+      "count": 421
+    },
+    "priceCents": 4599,
+    "keywords": [
+      "backpack",
+      "laptop bag",
+      "mens",
+      "travel",
+      "bags"
+    ],
+    "category": "bags",
+    "description": "A structured charcoal-gray backpack with a padded top handle and cushioned shoulder straps, built for daily commuting. Multiple front zip pockets, a mesh side pocket, and a metallic branded logo plate give it a clean, business-casual look suited for laptops and everyday essentials."
+  },
+  {
+    "id": "f70819a2-b3c4-4d56-ef57-718293a41526",
+    "image": "images/products/apple-airpods-max-mint-green.jpg",
+    "name": "Apple AirPods Max - Sage Green",
+    "rating": {
+      "stars": 4.5,
+      "count": 897
+    },
+    "priceCents": 54900,
+    "keywords": [
+      "headphones",
+      "airpods max",
+      "apple",
+      "audio",
+      "over-ear"
+    ],
+    "category": "audio",
+    "description": "Floating against a dramatic black background, these sage-green over-ear headphones showcase their signature mesh headband and softly cushioned ear cups. The subtle stainless steel hinge and smooth digital crown catch the light, giving the headphones a striking, editorial presence."
+  },
+  {
+    "id": "0819a2b3-c4d5-4e67-f068-8293a4152637",
+    "image": "images/products/apple-watch-series-10-rose-gold-and-black.jpg",
+    "name": "Apple Watch Series 10 - Rose Gold & Midnight, GPS + Cellular",
+    "rating": {
+      "stars": 5,
+      "count": 2043
+    },
+    "priceCents": 42900,
+    "keywords": [
+      "smartwatch",
+      "apple watch",
+      "wearable",
+      "fitness tracker",
+      "watches"
+    ],
+    "category": "watches",
+    "description": "Two Apple Watches shown side by side - one in a warm rose-gold aluminum case with a soft pink sport band displaying an analog watch face, and the other in matte black with a colorful abstract watch face. Both showcase crisp always-on displays and rounded square cases."
+  },
+  {
+    "id": "19a2b3c4-d5e6-4f78-0179-93a415263748",
+    "image": "images/products/apple-watch-ultra-2-orange-ocean-band.jpg",
+    "name": "Apple Watch Ultra 2 - Titanium, Orange Ocean Band",
+    "rating": {
+      "stars": 5,
+      "count": 1567
+    },
+    "priceCents": 79900,
+    "keywords": [
+      "smartwatch",
+      "apple watch ultra",
+      "titanium",
+      "fitness tracker",
+      "watches"
+    ],
+    "category": "watches",
+    "description": "A rugged titanium-cased smartwatch with a vivid orange Ocean Band, built for adventure. The bright Retina display shows a data-rich dial with humidity, compass heading, wind speed, and depth readouts, alongside an orange action button for quick access to workouts and dives."
+  },
+  {
+    "id": "2b3c4d5e-6f70-4819-1280-a415263748a9",
+    "image": "images/products/mens-black-travel-backpack.jpg",
+    "name": "Men's Black Anti-Theft Travel Backpack",
+    "rating": {
+      "stars": 4.5,
+      "count": 288
+    },
+    "priceCents": 3899,
+    "keywords": [
+      "backpack",
+      "laptop bag",
+      "travel",
+      "anti-theft",
+      "bags"
+    ],
+    "category": "bags",
+    "description": "A sleek all-black backpack with a padded carry handle, contoured mesh-lined shoulder straps, and a built-in USB charging port. Dual front zip compartments and a side pocket offer organized storage, while its slim rectangular silhouette keeps it lightweight for daily commuting or travel."
+  },
+  {
+    "id": "3c4d5e6f-7081-4920-2391-b415263748a9",
+    "image": "images/products/benyar-mens-chronograph-watch-blue-brown.jpg",
+    "name": "BENYAR Men's Chronograph Watch - Blue Dial, Brown Leather",
+    "rating": {
+      "stars": 4.5,
+      "count": 3120
+    },
+    "priceCents": 4299,
+    "keywords": [
+      "watches",
+      "chronograph",
+      "benyar",
+      "mens watch",
+      "leather strap"
+    ],
+    "category": "watches",
+    "description": "A sporty chronograph watch with a deep blue dial, luminous rose-gold hour markers, and a tachymeter scale ringing the bezel. Three functional sub-dials track elapsed time, and a warm tan leather strap with contrast stitching and a branded buckle rounds out the rugged, business-casual style."
+  },
+  {
+    "id": "4d5e6f70-8192-4a31-3402-c415263748a9",
+    "image": "images/products/smart-fitness-watch-black-white-band.jpg",
+    "name": "Smart Fitness Watch - Square Display",
+    "rating": {
+      "stars": 4.5,
+      "count": 764
+    },
+    "priceCents": 6499,
+    "keywords": [
+      "smartwatch",
+      "fitness tracker",
+      "wearable",
+      "watches"
+    ],
+    "category": "watches",
+    "description": "A pair of square-faced smartwatches, one in black and one in cream, both displaying a bold digital clock face alongside heart rate, air quality, and step-count widgets. Soft silicone bands and slim gold-toned side buttons give the pair a clean, modern fitness-tracking look."
+  },
+  {
+    "id": "5e6f7081-92a3-4b42-4513-d415263748a9",
+    "image": "images/products/leather-briefcase-bag-black-navy.jpg",
+    "name": "Leather Slim Briefcase Bag - Work Essentials",
+    "rating": {
+      "stars": 4.5,
+      "count": 176
+    },
+    "priceCents": 12900,
+    "keywords": [
+      "briefcase",
+      "bags",
+      "work bag",
+      "leather",
+      "laptop bag"
+    ],
+    "category": "bags",
+    "description": "Two slim structured briefcases - one in matte black and one in navy blue - each featuring rolled top handles, a zip-around closure, and a minimalist metal logo plate. The clean saffiano-textured leather and boxy silhouette give them a polished, professional look ideal for the office."
+  },
+  {
+    "id": "6f708192-a3b4-4c53-5624-e415263748a9",
+    "image": "images/products/20w-fast-charger-set-with-cable.jpg",
+    "name": "20W Fast Charger Set with USB-C to Lightning Cable",
+    "rating": {
+      "stars": 4.5,
+      "count": 5289
+    },
+    "priceCents": 1499,
+    "keywords": [
+      "charger",
+      "fast charging",
+      "cable",
+      "gadget",
+      "accessories"
+    ],
+    "category": "gadget",
+    "description": "A compact white 20W USB-C power adapter paired with a neatly coiled charging cable secured by a cable tie. The minimalist rectangular charging head and soft-white braided-style cord give it the familiar clean, functional design of an everyday charging accessory."
+  },
+  {
+    "id": "70819293-b4c5-4d64-6735-f415263748a9",
+    "image": "images/products/mens-brown-high-top-boots.jpg",
+    "name": "Men's Brown High-Top Fashion Boots",
+    "rating": {
+      "stars": 4.5,
+      "count": 640
+    },
+    "priceCents": 3299,
+    "keywords": [
+      "shoes",
+      "boots",
+      "high-top",
+      "footwear",
+      "mens"
+    ],
+    "category": "shoes",
+    "description": "Rugged high-top boots in a warm brown suede-look finish with a contrasting tan collar and buckle strap detail. Sturdy lace-up fronts, reinforced eyelets, and a thick white sole give these boots a tough yet stylish look, plush faux-fur lining peeking out at the ankle."
+  },
+  {
+    "id": "8192a3b4-c5d6-4e75-7846-0415263748a9",
+    "image": "images/products/jordan-monogram-duffle-bag-tan.jpg",
+    "name": "Air Jordan Monogram Duffle Bag - Tan",
+    "rating": {
+      "stars": 4.5,
+      "count": 213
+    },
+    "priceCents": 9200,
+    "keywords": [
+      "bags",
+      "duffle bag",
+      "jordan",
+      "travel bag",
+      "monogram"
+    ],
+    "category": "bags",
+    "description": "An elegant tan duffle bag covered in a subtle tonal Jumpman monogram print, accented with rich caramel-brown leather trim and rolled handles. A small gold Jumpman emblem sits on the front leather patch, giving this travel bag a refined, luxury-inspired finish."
+  },
+  {
+    "id": "92a3b4c5-d6e7-4f86-8957-1415263748a9",
+    "image": "images/products/hp-640-g5-laptop-silver.jpg",
+    "name": "HP 640 G5 Laptop - Core i5, 16GB RAM, 512GB SSD",
+    "rating": {
+      "stars": 4,
+      "count": 312
+    },
+    "priceCents": 32900,
+    "keywords": [
+      "laptop",
+      "hp",
+      "computer",
+      "core i5",
+      "laptops"
+    ],
+    "category": "laptops",
+    "description": "A slim silver HP laptop shown from the rear with its lid tilted open, revealing the signature HP logo and a full row of side ports including USB, HDMI, and a memory card slot. The brushed-metal finish and compact 14-inch profile give it a clean, business-ready appearance."
+  },
+  {
+    "id": "a3b4c5d6-e7f8-4097-9068-2415263748a9",
+    "image": "images/products/hp-pavilion-x360-laptop-silver.jpg",
+    "name": "HP Pavilion x360 Convertible Laptop",
+    "rating": {
+      "stars": 4.5,
+      "count": 458
+    },
+    "priceCents": 39900,
+    "keywords": [
+      "laptop",
+      "hp",
+      "convertible",
+      "2-in-1",
+      "laptops"
+    ],
+    "category": "laptops",
+    "description": "A sleek silver 2-in-1 convertible laptop photographed from behind, lid partly open to reveal its flexible 360-degree hinge and dark keyboard deck. The polished HP logo sits centered on the smooth aluminum-style lid, with side ports visible along the slim chassis edge."
+  },
+  {
+    "id": "b4c5d6e7-f809-4108-1079-3415263748a9",
+    "image": "images/products/calvin-klein-mens-sneakers-white-tan.jpg",
+    "name": "Calvin Klein Men's Retro Sneakers - White & Tan",
+    "rating": {
+      "stars": 4.5,
+      "count": 397
+    },
+    "priceCents": 8999,
+    "keywords": [
+      "shoes",
+      "sneakers",
+      "calvin klein",
+      "footwear",
+      "mens"
+    ],
+    "category": "shoes",
+    "description": "Retro-style running sneakers in an off-white canvas upper with tan suede overlays on the toe and heel, tied with matching tan laces. A subtle 'cK' logo sits on the side panel, and a chunky white midsole with a black stripe gives them a sporty, elevated finish."
+  },
+  {
+    "id": "c1d2e3f4-5061-4728-8901-a1b2c3d4e5f6",
+    "image": "images/products/apple-ipad-10th-gen-multicolor.jpg",
+    "name": "Apple iPad (10th Generation) - Assorted Colors",
+    "rating": {
+      "stars": 4.5,
+      "count": 3204
+    },
+    "priceCents": 34900,
+    "keywords": [
+      "ipad",
+      "tablet",
+      "apple",
+      "gadget",
+      "electronics"
+    ],
+    "category": "gadget",
+    "description": "Five iPads fanned out to show off the color lineup - silver, yellow, pink, and blue - each with a rounded aluminum back and a single rear camera. The front-facing tablet displays a vivid gradient wallpaper of blue, purple, red, and yellow blending across the Liquid Retina screen."
+  },
+  {
+    "id": "d2e3f405-6172-4839-9012-b2c3d4e5f607",
+    "image": "images/products/apple-iphone-16-series-multicolor.jpg",
+    "name": "Apple iPhone 16 Series - Multiple Colors",
+    "rating": {
+      "stars": 4.5,
+      "count": 2871
+    },
+    "priceCents": 79900,
+    "keywords": [
+      "iphone",
+      "smartphone",
+      "apple",
+      "gadget",
+      "electronics"
+    ],
+    "category": "gadget",
+    "description": "Five iPhones stand side by side showing their glossy backs in black, white, pink, teal, and ultramarine blue. Each phone has a vertically stacked dual-camera module, a subtle Apple logo, and rounded aluminum edges that catch soft studio light."
+  },
+  {
+    "id": "e3f40516-7283-4940-0123-c3d4e5f60718",
+    "image": "images/products/apple-iphone-17-series-multicolor.jpg",
+    "name": "Apple iPhone 17 Series - Multiple Colors",
+    "rating": {
+      "stars": 4.5,
+      "count": 1456
+    },
+    "priceCents": 99900,
+    "keywords": [
+      "iphone",
+      "smartphone",
+      "apple",
+      "gadget",
+      "electronics"
+    ],
+    "category": "gadget",
+    "description": "Held fanned out in two hands, four iPhones show off frosted-glass backs in white, sage green, deep navy, and burnt orange. The orange and navy models reveal a triple-camera housing built into a raised plateau, while the white and green models keep a sleeker dual-camera design."
+  },
+  {
+    "id": "f4051627-8394-4a51-1234-d4e5f6071829",
+    "image": "images/products/luxury-mens-dress-watch-rose-gold.jpg",
+    "name": "Luxury Men's Dress Watch - Rose Gold & Leather",
+    "rating": {
+      "stars": 4.5,
+      "count": 512
+    },
+    "priceCents": 18900,
+    "keywords": [
+      "watches",
+      "luxury watch",
+      "dress watch",
+      "mens",
+      "leather strap"
+    ],
+    "category": "watches",
+    "description": "A refined rose-gold cased watch with a smoky charcoal dial, small seconds sub-dial, and a date window at three o'clock. The deep brown crocodile-embossed leather strap and softly lit moody backdrop give this timepiece a timeless, formal elegance."
+  },
+  {
+    "id": "05162738-94a5-4b62-2345-e5f607182930",
+    "image": "images/products/monogram-leather-duffle-bag-brown.jpg",
+    "name": "Monogram Leather Weekender Duffle Bag - Brown",
+    "rating": {
+      "stars": 4.5,
+      "count": 389
+    },
+    "priceCents": 9800,
+    "keywords": [
+      "bags",
+      "duffle bag",
+      "monogram",
+      "travel bag",
+      "luxury"
+    ],
+    "category": "bags",
+    "description": "A rich brown canvas duffle bag stamped with a repeating card-suit monogram print, trimmed in tan leather with rolled top handles and a detachable shoulder strap. A matching luggage tag and gold-toned zip pull complete its classic weekender look."
+  },
+  {
+    "id": "16273849-a5b6-4c73-3456-f60718293041",
+    "image": "images/products/macbook-pro-space-black.jpg",
+    "name": "Apple MacBook Pro - Space Black",
+    "rating": {
+      "stars": 5,
+      "count": 1893
+    },
+    "priceCents": 199900,
+    "keywords": [
+      "macbook",
+      "laptop",
+      "apple",
+      "laptops",
+      "electronics"
+    ],
+    "category": "laptops",
+    "description": "A closed MacBook Pro in a deep matte space-black finish rests atop its original retail box, with the Apple logo etched cleanly at its center. The smooth anodized aluminum lid and slim tapered edges reflect a soft studio glow, hinting at the sleek keyboard deck underneath."
+  },
+  {
+    "id": "27384950-b6c7-4d84-4567-071829304152",
+    "image": "images/products/wireless-lavalier-microphone-set-black.jpg",
+    "name": "Wireless Lavalier Microphone Set - Dual Mic with Charging Case",
+    "rating": {
+      "stars": 4.5,
+      "count": 2764
+    },
+    "priceCents": 3499,
+    "keywords": [
+      "microphone",
+      "lavalier mic",
+      "wireless",
+      "audio",
+      "vlogging"
+    ],
+    "category": "audio",
+    "description": "Two compact black clip-on microphones with fuzzy foam windscreens stand beside their USB-C charging/receiver dongle. Each mic features a small screen and a green recording indicator light, built for clipping onto a collar for crisp, hands-free audio while filming."
+  },
+  {
+    "id": "38495061-c7d8-4e95-5678-182930415263",
+    "image": "images/products/womens-laptop-work-tote-bag-black.jpg",
+    "name": "Women's Laptop Tote Bag - Black with Gold Hardware",
+    "rating": {
+      "stars": 4.5,
+      "count": 674
+    },
+    "priceCents": 5299,
+    "keywords": [
+      "bags",
+      "laptop bag",
+      "tote",
+      "work bag",
+      "womens"
+    ],
+    "category": "bags",
+    "description": "A structured black nylon work tote with padded top handles, an adjustable crossbody strap, and gleaming gold-tone zipper pulls. A front zip pocket and a subtle logo tab add polish, making it a sleek, professional carry for a laptop and daily essentials."
+  },
+  {
+    "id": "49506172-d8e9-4fa6-6789-293041526374",
+    "image": "images/products/macbook-pro-silver-minimalist.jpg",
+    "name": "Apple MacBook Pro - Silver, Minimalist Setup",
+    "rating": {
+      "stars": 5,
+      "count": 2210
+    },
+    "priceCents": 189900,
+    "keywords": [
+      "macbook",
+      "laptop",
+      "apple",
+      "laptops",
+      "electronics"
+    ],
+    "category": "laptops",
+    "description": "A silver MacBook Pro sits open at a slight angle against a soft white backdrop, its polished aluminum lid catching gentle light around the engraved Apple logo. The visible hinge and side ports hint at a modern, minimalist workspace setup."
+  },
+  {
+    "id": "50617283-e9fa-40b7-7890-304152637485",
+    "image": "images/products/minimalist-stainless-steel-bracelet-watch.jpg",
+    "name": "Minimalist Stainless Steel Bracelet Watch",
+    "rating": {
+      "stars": 4.5,
+      "count": 445
+    },
+    "priceCents": 8900,
+    "keywords": [
+      "watches",
+      "stainless steel",
+      "bracelet watch",
+      "mens watch",
+      "minimalist"
+    ],
+    "category": "watches",
+    "description": "A gunmetal-gray stainless steel watch photographed mid-float against a dark gradient backdrop, showcasing its brushed link bracelet and clean sunburst dial with slim baton markers. The polished bezel and crown catch dramatic side lighting for a sleek, versatile everyday look."
+  },
+  {
+    "id": "61728394-f0ab-41c8-8901-415263748596",
+    "image": "images/products/minimalist-white-leather-sneakers.jpg",
+    "name": "Minimalist White Leather Sneakers",
+    "rating": {
+      "stars": 4.5,
+      "count": 918
+    },
+    "priceCents": 6499,
+    "keywords": [
+      "shoes",
+      "sneakers",
+      "white sneakers",
+      "footwear",
+      "minimalist"
+    ],
+    "category": "shoes",
+    "description": "A clean pair of all-white leather sneakers caught mid-air, showing off their smooth panels, subtle perforated toe detailing, and chunky white sole. Matching white laces and a soft beige backdrop give this classic silhouette a timeless, versatile appeal."
+  },
+  {
+    "id": "728394a5-01bc-42d9-9012-526374859607",
+    "image": "images/products/nike-air-force-1-high-top-gray.jpg",
+    "name": "Nike Air Force 1 High-Top - Gray & Black",
+    "rating": {
+      "stars": 4.5,
+      "count": 3567
+    },
+    "priceCents": 11900,
+    "keywords": [
+      "shoes",
+      "sneakers",
+      "nike",
+      "high-top",
+      "footwear"
+    ],
+    "category": "shoes",
+    "description": "A cool-gray high-top sneaker with black Swoosh detailing, a padded ankle strap, and chunky white-black sole, held up beside its Nike shoebox and matching pair. Crisp stitching and a ribbed collar give it a bold, streetwear-ready look."
+  },
+  {
+    "id": "8394a5b6-12cd-43ea-0123-637485960718",
+    "image": "images/products/sony-mirrorless-vlogging-camera-with-mic.jpg",
+    "name": "Sony Alpha Mirrorless Vlogging Camera with Grip & Mic",
+    "rating": {
+      "stars": 4.5,
+      "count": 687
+    },
+    "priceCents": 89900,
+    "keywords": [
+      "camera",
+      "sony alpha",
+      "vlogging",
+      "mirrorless",
+      "gadget"
+    ],
+    "category": "gadget",
+    "description": "A compact Sony Alpha mirrorless camera with a flip-out touchscreen and a fuzzy windscreen mic mounted on top, sitting on a handheld shooting grip with photo/movie record buttons. The all-black body and Sony branding give it a sleek, content-creator-ready design."
+  },
+  {
+    "id": "94a5b6c7-23de-44fb-1234-748596071829",
+    "image": "images/products/polo-canvas-sneakers-navy-tan.jpg",
+    "name": "Polo Canvas Sneakers - Navy with Tan Trim",
+    "rating": {
+      "stars": 4,
+      "count": 251
+    },
+    "priceCents": 3999,
+    "keywords": [
+      "shoes",
+      "sneakers",
+      "polo",
+      "canvas shoes",
+      "footwear"
+    ],
+    "category": "shoes",
+    "description": "Casual navy canvas sneakers with contrasting tan leather eyelets and heel trim, tan laces, and an embroidered horse-and-rider Polo logo on the tongue. A thick white rubber sole finishes the classic, versatile weekend look."
+  },
+  {
+    "id": "a5b6c7d8-34ef-450c-2345-859607182930",
+    "image": "images/products/oraimo-power-bank-black-digital-display.jpg",
+    "name": "Oraimo Power Bank - 20000mAh with Digital Display",
+    "rating": {
+      "stars": 4.5,
+      "count": 4103
+    },
+    "priceCents": 5999,
+    "keywords": [
+      "power bank",
+      "portable charger",
+      "oraimo",
+      "gadget",
+      "electronics"
+    ],
+    "category": "gadget",
+    "description": "A sleek black power bank with a glossy digital display showing a 100% charge readout, framed by dual USB output ports, a USB-C input port, and an auxiliary port. Its rounded, pocket-friendly shape and matte-glossy finish make it easy to grip and carry."
+  },
+  {
+    "id": "b6c7d8e9-45f0-461d-3456-960718293041",
+    "image": "images/products/premium-rose-gold-touchscreen-smartwatch.jpg",
+    "name": "Premium Rose Gold Touchscreen Smartwatch - Metal Strap",
+    "rating": {
+      "stars": 4.5,
+      "count": 823
+    },
+    "priceCents": 12900,
+    "keywords": [
+      "smartwatch",
+      "rose gold",
+      "metal strap",
+      "touchscreen",
+      "watches"
+    ],
+    "category": "watches",
+    "description": "A glamorous rose-gold smartwatch with a rectangular touchscreen displaying a swirling gold digital watch face and the date. The matching rose-gold metal link bracelet and polished crown give it a dressy, statement-making finish suited for both style and function."
+  },
+  {
+    "id": "c7d8e9f0-5601-472e-4567-071829304152",
+    "image": "images/products/red-ipad-with-apple-pencil.jpg",
+    "name": "Apple iPad - (PRODUCT)RED with Apple Pencil",
+    "rating": {
+      "stars": 4.5,
+      "count": 1287
+    },
+    "priceCents": 44900,
+    "keywords": [
+      "ipad",
+      "tablet",
+      "apple pencil",
+      "apple",
+      "gadget"
+    ],
+    "category": "gadget",
+    "description": "A vivid red iPad lies face-down on a dark red and black surface, its single rear camera and Apple logo catching a soft glow. A white Apple Pencil rests beside it, angled diagonally across the frame for a striking, high-contrast product shot."
+  },
+  {
+    "id": "d8e9f011-6712-483f-5678-182930415263",
+    "image": "images/products/led-ring-light-with-tripod-stand.jpg",
+    "name": "LED Ring Light with Phone Holder & Tripod Stand",
+    "rating": {
+      "stars": 4.5,
+      "count": 1975
+    },
+    "priceCents": 3299,
+    "keywords": [
+      "ring light",
+      "led light",
+      "tripod",
+      "gadget",
+      "photography"
+    ],
+    "category": "gadget",
+    "description": "A tall standing ring light with a glowing circular LED ring and a phone clip mounted at its center, supported by an adjustable telescoping tripod with tri-fold legs. A trailing power cord and neutral indoor setting show it ready for streaming or content shoots."
+  },
+  {
+    "id": "e9f01122-7823-4940-6789-293041526374",
+    "image": "images/products/smart-watch-round-blue-silicone-band.jpg",
+    "name": "Smart Watch for Men and Women - Round Display, Blue Band",
+    "rating": {
+      "stars": 4.5,
+      "count": 1642
+    },
+    "priceCents": 4599,
+    "keywords": [
+      "smartwatch",
+      "fitness tracker",
+      "round watch",
+      "unisex",
+      "watches"
+    ],
+    "category": "watches",
+    "description": "A steel-blue round smartwatch displays a swirling blue watch face with time and heart-rate readout. Its soft matching silicone band, physical side button, and smoothly contoured case make it a comfortable, unisex fitness companion."
+  },
+  {
+    "id": "f0112233-8934-4a51-7890-304152637485",
+    "image": "images/products/navy-sport-sneakers-orange-accent.jpg",
+    "name": "Men's Navy Sport Sneakers with Orange Accent",
+    "rating": {
+      "stars": 4,
+      "count": 356
+    },
+    "priceCents": 3599,
+    "keywords": [
+      "shoes",
+      "sneakers",
+      "sport shoes",
+      "footwear",
+      "mens"
+    ],
+    "category": "shoes",
+    "description": "Casual navy sneakers with a canvas upper, white laces, and a pop of orange at the heel tab and tongue lining, branded 'SPORT' along the side. A crisp white outsole and rounded toe give them a clean, everyday athletic-casual look."
+  },
+  {
+    "id": "11a2b3c4-d5e6-4f70-8081-92a3b4c5d6e7",
+    "image": "images/products/mens-white-red-sport-sneakers.jpg",
+    "name": "Men's White & Red Sport Fashion Sneakers",
+    "rating": {
+      "stars": 4.5,
+      "count": 289
+    },
+    "priceCents": 4499,
+    "keywords": [
+      "shoes",
+      "sneakers",
+      "sport shoes",
+      "footwear",
+      "mens"
+    ],
+    "category": "shoes",
+    "description": "A bold white sneaker with sweeping red accent panels, red pull tabs, and a basketball icon stitched near the toe. Chunky red-and-white ribbed laces run up a mesh tongue printed with 'FASHION' and 'SPORT', all sitting atop a thick two-tone sole for a sporty, eye-catching look."
+  },
+  {
+    "id": "22b3c4d5-e6f7-4081-9192-a3b4c5d6e7f8",
+    "image": "images/products/timberland-boots-blue-white.jpg",
+    "name": "Timberland 6-Inch Boots - Royal Blue & White",
+    "rating": {
+      "stars": 4.5,
+      "count": 512
+    },
+    "priceCents": 15900,
+    "keywords": [
+      "boots",
+      "timberland",
+      "footwear",
+      "mens",
+      "workboots"
+    ],
+    "category": "shoes",
+    "description": "A vibrant royal-blue take on the classic Timberland boot, featuring white contrast stitching, white laces, and the signature tree logo patch on the tongue and heel. A rugged white lug sole adds a fresh, statement-making twist to the iconic silhouette, shown resting on its branded box."
+  },
+  {
+    "id": "33c4d5e6-f708-4192-a2a3-b4c5d6e7f809",
+    "image": "images/products/round-smartwatch-black-silicone-band.jpg",
+    "name": "Round Smartwatch - Matte Black, Waterproof",
+    "rating": {
+      "stars": 4.5,
+      "count": 1109
+    },
+    "priceCents": 5499,
+    "keywords": [
+      "smartwatch",
+      "waterproof watch",
+      "black watch",
+      "fitness tracker",
+      "watches"
+    ],
+    "category": "watches",
+    "description": "A sleek all-black round smartwatch shown from the side, its circular display facing away to highlight the slim case, side button with a red accent, and a soft matte silicone band with a metal buckle clasp. The minimalist, water-resistant design suits both workouts and daily wear."
+  },
+  {
+    "id": "44d5e6f7-0819-42a3-b3b4-c5d6e7f8091a",
+    "image": "images/products/macbook-rose-gold-pink.jpg",
+    "name": "Apple MacBook - Rose Gold",
+    "rating": {
+      "stars": 5,
+      "count": 1345
+    },
+    "priceCents": 129900,
+    "keywords": [
+      "macbook",
+      "laptop",
+      "apple",
+      "laptops",
+      "rose gold"
+    ],
+    "category": "laptops",
+    "description": "A dreamy rose-gold MacBook sits propped open at an angle, its brushed metallic lid catching a warm pink sheen around the embossed Apple logo. The matching blush-toned keyboard deck and trackpad peek out beneath, giving this laptop a soft, elegant finish."
+  },
+  {
+    "id": "55e6f708-192a-43b4-c4c5-d6e7f8091a2b",
+    "image": "images/products/gray-leather-weekender-duffle-bag.jpg",
+    "name": "Gray Canvas & Leather Weekender Duffle Bag",
+    "rating": {
+      "stars": 4.5,
+      "count": 267
+    },
+    "priceCents": 6799,
+    "keywords": [
+      "bags",
+      "duffle bag",
+      "weekender",
+      "travel bag",
+      "gray"
+    ],
+    "category": "bags",
+    "description": "A heather-gray canvas duffle bag with a black leather base and trim, featuring tall wrapped handles, a branded gold-tone logo plate, and a double-zip bottom compartment for shoes or shoes separation. Its structured shape and neutral tones make it a practical, versatile travel companion."
+  },
+  {
+    "id": "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
+    "image": "images/products/athletic-cotton-socks-6-pairs.jpg",
+    "name": "Black and Gray Athletic Cotton Socks - 6 Pairs",
+    "rating": {
+      "stars": 4.5,
+      "count": 87
+    },
+    "priceCents": 1090,
+    "keywords": [
+      "socks",
+      "sports",
+      "apparel"
+    ],
+    "category": "fashion",
+    "description": "A 6-pair bundle of cushioned athletic socks in alternating black and gray tones, featuring reinforced heel and toe panels and a ribbed arch band for a snug, supportive fit during workouts or everyday wear."
+  },
+  {
+    "id": "15b6fc6f-327a-4ec4-896f-486349e85a3d",
+    "image": "images/products/intermediate-composite-basketball.jpg",
+    "name": "Intermediate Size Basketball",
+    "rating": {
+      "stars": 4,
+      "count": 127
+    },
+    "priceCents": 2095,
+    "keywords": [
+      "sports",
+      "basketballs"
+    ],
+    "category": "others",
+    "description": "A durable composite-leather basketball with deep channel grooves for a secure grip, sized for intermediate players. Its textured surface and consistent bounce make it suited for both indoor and outdoor courts."
+  },
+  {
+    "id": "83d4ca15-0f35-48f5-b7a3-1ea210004f2e",
+    "image": "images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg",
+    "name": "Adults Plain Cotton T-Shirt - 2 Pack",
+    "rating": {
+      "stars": 4.5,
+      "count": 56
+    },
+    "priceCents": 799,
+    "keywords": [
+      "tshirts",
+      "apparel",
+      "mens"
+    ],
+    "category": "fashion",
+    "description": "A simple two-pack of soft, breathable cotton t-shirts with a classic crew neckline and relaxed fit. A wardrobe staple designed for everyday comfort, easy layering, and machine-washable durability."
+  },
+  {
+    "id": "54e0eccd-8f36-462b-b68a-8182611d9add",
+    "image": "images/products/2-slot-toaster-white.jpg",
+    "name": "2 Slot Toaster - White",
+    "rating": {
+      "stars": 5,
+      "count": 2197
+    },
+    "priceCents": 1899,
+    "keywords": [
+      "toaster",
+      "kitchen",
+      "appliances"
+    ],
+    "category": "gadget",
+    "description": "A clean white two-slot toaster with wide slots for bread and bagels, adjustable browning dial, and a slide-out crumb tray. Its compact footprint fits easily on any kitchen counter."
+  },
+  {
+    "id": "3ebe75dc-64d2-4137-8860-1f5a963e534b",
+    "image": "images/products/elegant-white-dinner-plate-set.jpg",
+    "name": "2 Piece White Dinner Plate Set",
+    "rating": {
+      "stars": 4,
+      "count": 37
+    },
+    "priceCents": 2067,
+    "keywords": [
+      "plates",
+      "kitchen",
+      "dining"
+    ],
+    "category": "others",
+    "description": "A pair of crisp white dinner plates with a smooth glazed finish and a subtly raised rim. Elegant enough for entertaining, yet sturdy and dishwasher-safe for everyday dining."
+  },
+  {
+    "id": "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
+    "image": "images/products/3-piece-cooking-set.jpg",
+    "name": "3 Piece Non-Stick, Black Cooking Pot Set",
+    "rating": {
+      "stars": 4.5,
+      "count": 175
+    },
+    "priceCents": 3499,
+    "keywords": [
+      "kitchen",
+      "cookware"
+    ],
+    "category": "others",
+    "description": "A three-piece set of matte-black non-stick cooking pots with tempered glass lids and heat-resistant handles. Even heat distribution and an easy-release coating make cleanup quick and simple."
+  },
+  {
+    "id": "dd82ca78-a18b-4e2a-9250-31e67412f98d",
+    "image": "images/products/women-plain-cotton-oversized-sweater-gray.jpg",
+    "name": "Cotton Oversized Sweater - Gray",
+    "rating": {
+      "stars": 4.5,
+      "count": 317
+    },
+    "priceCents": 2400,
+    "keywords": [
+      "sweaters",
+      "apparel"
+    ],
+    "category": "fashion",
+    "description": "A cozy oversized sweater in heather gray, knitted from soft cotton with dropped shoulders and ribbed cuffs and hem. Its relaxed, slouchy silhouette layers easily over leggings or jeans for a comfortable everyday look."
+  },
+  {
+    "id": "77919bbe-0e56-475b-adde-4f24dfed3a04",
+    "image": "images/products/luxury-towel-set.jpg",
+    "name": "2 Piece Luxury Towel Set - White",
+    "rating": {
+      "stars": 4.5,
+      "count": 144
+    },
+    "priceCents": 3599,
+    "keywords": [
+      "bathroom",
+      "washroom",
+      "restroom",
+      "towels",
+      "bath towels"
+    ],
+    "category": "others",
+    "description": "A plush two-piece set of bright white bath towels made from thick, absorbent cotton with a looped terry texture and a woven dobby border. Soft against the skin and quick-drying for everyday luxury."
+  },
+  {
+    "id": "6b07d4e7-f540-454e-8a1e-363f25dbae7d",
+    "image": "images/products/facial-tissue-2-ply-8-boxes.jpg",
+    "name": "Ultra Soft Tissue 2-Ply - 8 Boxes",
+    "rating": {
+      "stars": 4,
+      "count": 99
+    },
+    "priceCents": 2374,
+    "keywords": [
+      "kleenex",
+      "tissues",
+      "kitchen",
+      "napkins"
+    ],
+    "category": "others",
+    "description": "An 8-box bundle of ultra-soft 2-ply facial tissues, gentle on the skin and designed for everyday use throughout the home, from the kitchen counter to the nightstand."
+  },
+  {
+    "id": "5968897c-4d27-4872-89f6-5bcb052746d7",
+    "image": "images/products/women-striped-beach-dress.jpg",
+    "name": "Women's Striped Beach Dress",
+    "rating": {
+      "stars": 4.5,
+      "count": 235
+    },
+    "priceCents": 2970,
+    "keywords": [
+      "robe",
+      "swimsuit",
+      "swimming",
+      "bathing",
+      "apparel"
+    ],
+    "category": "fashion",
+    "description": "A breezy striped beach dress in a lightweight, flowing fabric, cut for easy movement with a relaxed silhouette. Perfect as a swimsuit cover-up or a casual seaside outfit on warm days."
+  },
+  {
+    "id": "b86ddc8b-3501-4b17-9889-a3bad6fb585f",
+    "image": "images/products/women-sandal-heels-white-pink.jpg",
+    "name": "Women's Sandal Heels - Pink",
+    "rating": {
+      "stars": 4.5,
+      "count": 2286
+    },
+    "priceCents": 5300,
+    "keywords": [
+      "garbage",
+      "bins",
+      "cans",
+      "kitchen"
+    ],
+    "category": "shoes",
+    "description": "A pair of elegant pink sandal heels with slender straps and a smooth curved heel, blending white and pink tones for a soft, feminine finish suited for both daytime and evening wear."
+  },
+  {
+    "id": "aad29d11-ea98-41ee-9285-b916638cac4a",
+    "image": "images/products/round-sunglasses-gold.jpg",
+    "name": "Round Sunglasses",
+    "rating": {
+      "stars": 4.5,
+      "count": 30
+    },
+    "priceCents": 3560,
+    "keywords": [
+      "accessories",
+      "shades"
+    ],
+    "category": "glasses",
+    "description": "A pair of retro-inspired round sunglasses with slim gold-tone metal frames and tinted lenses, offering a vintage-chic accent that pairs easily with almost any outfit."
+  },
+  {
+    "id": "901eb2ca-386d-432e-82f0-6fb1ee7bf969",
+    "image": "images/products/blackout-curtain-set-beige.jpg",
+    "name": "Blackout Curtains Set - Beige",
+    "rating": {
+      "stars": 4.5,
+      "count": 232
+    },
+    "priceCents": 4599,
+    "keywords": [
+      "bedroom",
+      "curtains",
+      "home"
+    ],
+    "category": "others",
+    "description": "A set of soft beige blackout curtain panels woven from a dense, light-blocking fabric that also helps insulate the room. Their neutral tone and gentle drape suit bedrooms and living spaces alike."
+  },
+  {
+    "id": "82bb68d7-ebc9-476a-989c-c78a40ee5cd9",
+    "image": "images/products/women-summer-jean-shorts.jpg",
+    "name": "Women's Summer Jean Shorts",
+    "rating": {
+      "stars": 4,
+      "count": 160
+    },
+    "priceCents": 1699,
+    "keywords": [
+      "shorts",
+      "apparel",
+      "mens"
+    ],
+    "category": "fashion",
+    "description": "A pair of classic denim shorts with a mid-rise fit, frayed hem, and front pocket detailing. A warm-weather staple built from sturdy cotton denim for everyday casual wear."
+  },
+  {
+    "id": "c2a82c5e-aff4-435f-9975-517cfaba2ece",
+    "image": "images/products/electric-steel-hot-water-kettle-white.jpg",
+    "name": "Electric Hot Water Kettle - White",
+    "rating": {
+      "stars": 5,
+      "count": 846
+    },
+    "priceCents": 5074,
+    "keywords": [
+      "water kettle",
+      "appliances",
+      "kitchen"
+    ],
+    "category": "gadget",
+    "description": "A sleek white electric kettle with a stainless steel interior, cordless swivel base, and rapid boil function. An auto shut-off feature and ergonomic handle make it a safe, convenient kitchen essential."
+  },
+  {
+    "id": "58b4fc92-e98c-42aa-8c55-b6b79996769a",
+    "image": "images/products/knit-athletic-sneakers-gray.jpg",
+    "name": "Waterproof Knit Athletic Sneakers - Gray",
+    "rating": {
+      "stars": 4,
+      "count": 89
+    },
+    "priceCents": 5390,
+    "keywords": [
+      "shoes",
+      "running shoes",
+      "footwear"
+    ],
+    "category": "shoes",
+    "description": "A gray knit athletic sneaker built with a breathable, water-resistant upper and a cushioned foam midsole for shock absorption. Its flexible, sock-like fit makes it comfortable for running or all-day wear."
+  },
+  {
+    "id": "a82c6bac-3067-4e68-a5ba-d827ac0be010",
+    "image": "images/products/straw-sunhat.jpg",
+    "name": "Straw Wide Brim Sun Hat",
+    "rating": {
+      "stars": 4,
+      "count": 215
+    },
+    "priceCents": 2200,
+    "keywords": [
+      "hats",
+      "straw hats",
+      "summer",
+      "apparel"
+    ],
+    "category": "fashion",
+    "description": "A tightly woven straw hat with a wide brim that offers ample shade from the sun. A lightweight, breathable summer accessory perfect for the beach, garden, or outdoor strolls."
+  },
+  {
+    "id": "1c079479-8586-494f-ab53-219325432536",
+    "image": "images/products/men-athletic-shoes-white.jpg",
+    "name": "Men's Athletic Sneaker - White",
+    "rating": {
+      "stars": 4,
+      "count": 229
+    },
+    "priceCents": 4590,
+    "keywords": [
+      "shoes",
+      "running shoes",
+      "footwear",
+      "mens"
+    ],
+    "category": "shoes",
+    "description": "A clean white athletic sneaker with a breathable mesh upper, cushioned collar, and a durable rubber outsole. A versatile everyday shoe built for both casual wear and light workouts."
+  },
+  {
+    "id": "b0f17cc5-8b40-4ca5-9142-b61fe3d98c85",
+    "image": "images/products/men-stretch-wool-sweater-black.jpg",
+    "name": "Men's Wool Sweater - Black",
+    "rating": {
+      "stars": 4.5,
+      "count": 2465
+    },
+    "priceCents": 3374,
+    "keywords": [
+      "sweaters",
+      "apparel"
+    ],
+    "category": "fashion",
+    "description": "A classic black wool-blend sweater with a fitted stretch knit, ribbed crew neckline, and cuffs. Warm and lightweight, it layers easily under a jacket or stands alone as a smart-casual piece."
+  },
+  {
+    "id": "a93a101d-79ef-4cf3-a6cf-6dbe532a1b4a",
+    "image": "images/products/bathroom-mat.jpg",
+    "name": "Bathroom Bath Mat 16 x 32 Inch - Grey",
+    "rating": {
+      "stars": 4.5,
+      "count": 119
+    },
+    "priceCents": 1850,
+    "keywords": [
+      "bathmat",
+      "bathroom",
+      "home"
+    ],
+    "category": "others",
+    "description": "A plush gray bath mat with a soft, absorbent pile and a non-slip backing that keeps it securely in place. Sized to sit comfortably at the tub or sink edge for a cushioned step out of the shower."
+  },
+  {
+    "id": "4f4fbcc2-4e72-45cc-935c-9e13d79cc57f",
+    "image": "images/products/women-knit-ballet-flat-white.jpg",
+    "name": "Women's Ballet Flat - White",
+    "rating": {
+      "stars": 4,
+      "count": 326
+    },
+    "priceCents": 2640,
+    "keywords": [
+      "shoes",
+      "flats",
+      "womens",
+      "footwear"
+    ],
+    "category": "shoes",
+    "description": "A soft white knit ballet flat with a stretchy, sock-like upper and a rounded toe. Lightweight and flexible, it slips on easily for a comfortable, minimalist everyday shoe."
+  },
+  {
+    "id": "8b5a2ee1-6055-422a-a666-b34ba28b76d4",
+    "image": "images/products/men-golf-polo-t-shirt-gray.jpg",
+    "name": "Men's Golf Polo Shirt - Gray",
+    "rating": {
+      "stars": 4.5,
+      "count": 2556
+    },
+    "priceCents": 1599,
+    "keywords": [
+      "tshirts",
+      "shirts",
+      "apparel",
+      "mens"
+    ],
+    "category": "fashion",
+    "description": "A gray performance polo shirt with a ribbed collar, button placket, and a lightweight breathable fabric designed to wick moisture. A sharp, sporty top suited for the golf course or casual outings."
+  },
+  {
+    "id": "3fdfe8d6-9a15-4979-b459-585b0d0545b9",
+    "image": "images/products/laundry-detergent-tabs.jpg",
+    "name": "Laundry Detergent Tabs, 50 Loads",
+    "rating": {
+      "stars": 4.5,
+      "count": 305
+    },
+    "priceCents": 2899,
+    "keywords": [
+      "bathroom",
+      "cleaning"
+    ],
+    "category": "others",
+    "description": "A resealable pack of 50 pre-measured laundry detergent tabs, formulated to dissolve quickly and lift stains without the mess of pouring liquid or powder detergent."
+  },
+  {
+    "id": "e4f64a65-1377-42bc-89a5-e572d19252e2",
+    "image": "images/products/sky-leaf-branch-earrings.jpg",
+    "name": "Sterling Silver Leaf Branch Earrings",
+    "rating": {
+      "stars": 4.5,
+      "count": 52
+    },
+    "priceCents": 6799,
+    "keywords": [
+      "jewelry",
+      "accessories",
+      "womens"
+    ],
+    "category": "fashion",
+    "description": "A delicate pair of sterling silver earrings shaped like slender leaf branches, finished with a polished shine. An elegant, nature-inspired accessory suited for both everyday wear and special occasions."
+  },
+  {
+    "id": "19c6a64a-5463-4d45-9af8-e41140a4100c",
+    "image": "images/products/duvet-cover-set-gray-queen.jpg",
+    "name": "Duvet Cover Set, Diamond Pattern",
+    "rating": {
+      "stars": 4,
+      "count": 456
+    },
+    "priceCents": 4399,
+    "keywords": [
+      "bedroom",
+      "bed sheets",
+      "sheets",
+      "covers",
+      "home"
+    ],
+    "category": "others",
+    "description": "A queen-size duvet cover set woven with a subtle diamond quilted pattern in a soft gray tone. Includes matching pillow shams and a button or zipper closure for a polished, hotel-like bedroom look."
+  },
+  {
+    "id": "d2785924-743d-49b3-8f03-ec258e640503",
+    "image": "images/products/women-knit-beanie-pom-pom-blue.jpg",
+    "name": "Women's Knit Winter Beanie - Blue",
+    "rating": {
+      "stars": 5,
+      "count": 83
+    },
+    "priceCents": 1950,
+    "keywords": [
+      "hats",
+      "winter hats",
+      "beanies",
+      "apparel",
+      "womens"
+    ],
+    "category": "fashion",
+    "description": "A cozy ribbed-knit beanie in a rich blue hue, topped with a fluffy pom-pom. Its stretchy, snug fit and thick yarn construction keep ears warm through the coldest winter days."
+  },
+  {
+    "id": "ee1f7c56-f977-40a4-9642-12ba5072e2b0",
+    "image": "images/products/men-chino-pants-beige.jpg",
+    "name": "Men's Chino Pants - Beige",
+    "rating": {
+      "stars": 4.5,
+      "count": 9017
+    },
+    "priceCents": 2290,
+    "keywords": [
+      "pants",
+      "apparel",
+      "mens"
+    ],
+    "category": "fashion",
+    "description": "A pair of classic beige chino pants with a tailored straight leg, flat front, and durable cotton twill fabric. A versatile wardrobe staple that transitions easily from the office to the weekend."
+  },
+  {
+    "id": "4df68c27-fd59-4a6a-bbd1-e754ddb6d53c",
+    "image": "images/products/men-navigator-sunglasses-black.jpg",
+    "name": "Men's Navigator Sunglasses",
+    "rating": {
+      "stars": 3.5,
+      "count": 42
+    },
+    "priceCents": 3690,
+    "keywords": [
+      "sunglasses",
+      "glasses",
+      "accessories",
+      "shades"
+    ],
+    "category": "glasses",
+    "description": "A pair of sleek black navigator-style sunglasses with a slim metal frame and teardrop-shaped tinted lenses. A timeless, masculine accessory that pairs well with both casual and formal outfits."
+  },
+  {
+    "id": "04701903-bc79-49c6-bc11-1af7e3651358",
+    "image": "images/products/men-brown-flat-sneakers.jpg",
+    "name": "Men's Brown Flat Sneakers",
+    "rating": {
+      "stars": 4.5,
+      "count": 562
+    },
+    "priceCents": 2499,
+    "keywords": [
+      "footwear",
+      "men",
+      "sneakers"
+    ],
+    "category": "shoes",
+    "description": "A pair of low-profile brown sneakers with a smooth upper, flat sole, and clean minimalist stitching. A comfortable, understated shoe that works well with jeans or casual trousers."
+  },
+  {
+    "id": "4e37dd03-3b23-4bc6-9ff8-44e112a92c64",
+    "image": "images/products/non-stick-cooking-set-4-pieces.jpg",
+    "name": "Non-Stick Cook Set With Lids - 4 Pieces",
+    "rating": {
+      "stars": 4.5,
+      "count": 511
+    },
+    "priceCents": 6797,
+    "keywords": [
+      "cooking set",
+      "kitchen"
+    ],
+    "category": "others",
+    "description": "A four-piece non-stick cookware set featuring an easy-release coating, sturdy stay-cool handles, and tight-fitting lids that seal in heat and moisture for even, effortless cooking."
+  },
+  {
+    "id": "a434b69f-1bc1-482d-9ce7-cd7f4a66ce8d",
+    "image": "images/products/vanity-mirror-pink.jpg",
+    "name": "Vanity Mirror with LED Lights - Pink",
+    "rating": {
+      "stars": 4.5,
+      "count": 130
+    },
+    "priceCents": 2549,
+    "keywords": [
+      "bathroom",
+      "washroom",
+      "mirrors",
+      "home"
+    ],
+    "category": "gadget",
+    "description": "A round vanity mirror in a soft pink frame, ringed with bright LED bulbs for even, flattering lighting. Adjustable brightness settings make it ideal for makeup application or getting ready in the morning."
+  },
+  {
+    "id": "a45cfa0a-66d6-4dc7-9475-e2b01595f7d7",
+    "image": "images/products/women-relaxed-lounge-pants-pink.jpg",
+    "name": "Women's Relaxed Lounge Pants - Pink",
+    "rating": {
+      "stars": 4.5,
+      "count": 248
+    },
+    "priceCents": 3400,
+    "keywords": [
+      "pants",
+      "pants",
+      "apparel",
+      "womens"
+    ],
+    "category": "fashion",
+    "description": "A pair of soft pink lounge pants with a relaxed, wide-leg fit and an elastic drawstring waist. Made from a cozy brushed fabric, they're built for lazy days at home or a comfortable night's sleep."
+  },
+  {
+    "id": "d339adf3-e004-4c20-a120-40e8874c66cb",
+    "image": "images/products/crystal-zirconia-stud-earrings-pink.jpg",
+    "name": "Crystal Zirconia Stud Earrings - Pink",
+    "rating": {
+      "stars": 4.5,
+      "count": 117
+    },
+    "priceCents": 3467,
+    "keywords": [
+      "accessories",
+      "womens"
+    ],
+    "category": "fashion",
+    "description": "A pair of sparkling pink zirconia stud earrings set in a polished silver-tone mount, catching the light with every turn. A dainty, versatile accessory that dresses up any outfit."
+  },
+  {
+    "id": "d37a651a-d501-483b-aae6-a9659b0757a0",
+    "image": "images/products/glass-screw-lid-food-containers.jpg",
+    "name": "Glass Screw Lid Containers - 3 Pieces",
+    "rating": {
+      "stars": 4,
+      "count": 126
+    },
+    "priceCents": 2899,
+    "keywords": [
+      "food containers",
+      "kitchen"
+    ],
+    "category": "others",
+    "description": "A set of three clear glass food containers with secure screw-on lids, ideal for storing leftovers, meal prepping, or organizing pantry staples. Oven, microwave, and dishwasher safe for everyday convenience."
+  },
+  {
+    "id": "0d7f9afa-2efe-4fd9-b0fd-ba5663e0a524",
+    "image": "images/products/black-and-silver-espresso-maker.jpg",
+    "name": "Black and Silver Espresso Maker",
+    "rating": {
+      "stars": 4.5,
+      "count": 1211
+    },
+    "priceCents": 8250,
+    "keywords": [
+      "espresso makers",
+      "kitchen",
+      "appliances"
+    ],
+    "category": "gadget",
+    "description": "A sleek black and silver espresso maker with a built-in steam wand for frothing milk, a removable drip tray, and a compact footprint that brings café-quality espresso to the home countertop."
+  },
+  {
+    "id": "02e3a47e-dd68-467e-9f71-8bf6f723fdae",
+    "image": "images/products/blackout-curtains-set-teal.jpg",
+    "name": "Blackout Curtains Set 42 x 84-Inch - Teal",
+    "rating": {
+      "stars": 4.5,
+      "count": 363
+    },
+    "priceCents": 3099,
+    "keywords": [
+      "bedroom",
+      "home",
+      "curtains"
+    ],
+    "category": "others",
+    "description": "A pair of rich teal blackout curtain panels woven from a dense, light-blocking fabric with grommet tops for easy hanging. Their vibrant color and thermal-insulating weave add both style and function to any room."
+  },
+  {
+    "id": "8a53b080-6d40-4a65-ab26-b24ecf700bce",
+    "image": "images/products/bath-towel-set-gray-rosewood.jpg",
+    "name": "Bath Towels 2 Pack - Gray, Rosewood",
+    "rating": {
+      "stars": 4.5,
+      "count": 93
+    },
+    "priceCents": 2990,
+    "keywords": [
+      "bathroom",
+      "home",
+      "towels"
+    ],
+    "category": "others",
+    "description": "A two-pack of absorbent bath towels in complementary gray and rosewood tones, woven from soft cotton terry cloth. A cozy, quick-drying addition that adds a warm touch of color to the bathroom."
+  },
+  {
+    "id": "10ed8504-57db-433c-b0a3-fc71a35c88a1",
+    "image": "images/products/athletic-skateboard-shoes-gray.jpg",
+    "name": "Athletic Skateboard Shoes - Gray",
+    "rating": {
+      "stars": 4,
+      "count": 89
+    },
+    "priceCents": 3390,
+    "keywords": [
+      "shoes",
+      "running shoes",
+      "footwear"
+    ],
+    "category": "shoes",
+    "description": "A gray low-top skate shoe with a padded collar, reinforced toe cap, and a flat, grippy vulcanized sole built to withstand rough boardwork while staying comfortable for all-day wear."
+  },
+  {
+    "id": "77a845b1-16ed-4eac-bdf9-5b591882113d",
+    "image": "images/products/countertop-push-blender-black.jpg",
+    "name": "Countertop Push Blender - Black",
+    "rating": {
+      "stars": 4,
+      "count": 3
+    },
+    "priceCents": 10747,
+    "keywords": [
+      "food blenders",
+      "kitchen",
+      "appliances"
+    ],
+    "category": "gadget",
+    "description": "A sleek black countertop blender with a push-button pulse control, sharp stainless steel blades, and a sturdy pitcher built for smoothies, sauces, and everyday food prep."
+  },
+  {
+    "id": "bc2847e9-5323-403f-b7cf-57fde044a955",
+    "image": "images/products/men-cozy-fleece-hoodie-light-teal.jpg",
+    "name": "Men's Fleece Hoodie - Light Teal",
+    "rating": {
+      "stars": 4.5,
+      "count": 3157
+    },
+    "priceCents": 3800,
+    "keywords": [
+      "sweaters",
+      "hoodies",
+      "apparel",
+      "mens"
+    ],
+    "category": "fashion",
+    "description": "A soft, brushed-fleece hoodie in a light teal shade, featuring a roomy kangaroo pocket, adjustable drawstring hood, and ribbed cuffs for a cozy, relaxed everyday fit."
+  },
+  {
+    "id": "36c64692-677f-4f58-b5ec-0dc2cf109e27",
+    "image": "images/products/artistic-bowl-set-6-piece.jpg",
+    "name": "Artistic Bowl and Plate Set - 6 Pieces",
+    "rating": {
+      "stars": 5,
+      "count": 679
+    },
+    "priceCents": 3899,
+    "keywords": [
+      "bowls set",
+      "kitchen"
+    ],
+    "category": "others",
+    "description": "A six-piece dinnerware set featuring artistically glazed bowls and plates with organic, hand-painted-looking patterns. A charming mix of form and function that adds character to any table setting."
+  },
+  {
+    "id": "aaa65ef3-8d6f-4eb3-bc9b-a6ea49047d8f",
+    "image": "images/products/kitchen-paper-towels-8-pack.jpg",
+    "name": "2-Ply Kitchen Paper Towels - 8 Pack",
+    "rating": {
+      "stars": 4.5,
+      "count": 1045
+    },
+    "priceCents": 1899,
+    "keywords": [
+      "kitchen",
+      "kitchen towels",
+      "tissues"
+    ],
+    "category": "others",
+    "description": "An 8-pack of durable 2-ply paper towels, quick to absorb spills and tough enough for everyday kitchen cleanups, with a soft quilted texture that resists tearing."
+  }
+]
