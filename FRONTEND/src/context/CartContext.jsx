@@ -5,9 +5,25 @@ import { cartApi } from "../api/cart";
 const CartContext = createContext();
 
 export default function CartProvider({ children }) {
-    const { currentUser } = useAuth();
+    // Use the safe fallback exactly like your original code
+    const auth = useAuth() || {};
+    const currentUser = auth.currentUser;
+
     const [cart, setCart] = useState([]);
     const [loading, setLoading] = useState(false);
+
+    // Helper to map backend response to frontend format
+    const mapCartData = (items) => {
+        const mapped = items.map(item => ({
+            id: item.product._id,
+            productId: item.product._id,
+            name: item.product.name,
+            price: item.product.price,
+            image: item.product.images?.[0] || '', 
+            quantity: item.quantity
+        }));
+        setCart(mapped);
+    };
 
     // Fetch cart from backend when user logs in
     useEffect(() => {
@@ -29,19 +45,6 @@ export default function CartProvider({ children }) {
         fetchCart();
     }, [currentUser]);
 
-    // Helper to map backend response to frontend format
-    const mapCartData = (items) => {
-        const mapped = items.map(item => ({
-            id: item.product._id,
-            productId: item.product._id,
-            name: item.product.name,
-            price: item.product.price,
-            image: item.product.images?.[0] || '', // backend stores images as array
-            quantity: item.quantity
-        }));
-        setCart(mapped);
-    };
-
     const addToCart = async (product) => {
         if (!currentUser) {
             alert("Please login to add items to cart");
@@ -49,7 +52,7 @@ export default function CartProvider({ children }) {
         }
         try {
             await cartApi.addItem(product.id, 1);
-            const data = await cartApi.getCart(); // Re-fetch to get exact state
+            const data = await cartApi.getCart(); // Re-fetch to get exact state from DB
             mapCartData(data.items);
         } catch (error) {
             console.error("Error adding to cart:", error);
