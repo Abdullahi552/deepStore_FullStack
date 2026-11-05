@@ -5,42 +5,42 @@ import { cartApi } from "../api/cart";
 const CartContext = createContext();
 
 export default function CartProvider({ children }) {
-    const auth = useAuth();
-    const currentUser = auth?.currentUser;
-
+    const { currentUser } = useAuth();
     const [cart, setCart] = useState([]);
     const [loading, setLoading] = useState(false);
 
-    // Fetch cart from backend whenever user logs in or out
+    // Fetch cart from backend when user logs in
     useEffect(() => {
         const fetchCart = async () => {
             if (!currentUser) {
-                setCart([]);
+                setCart([]); // Clear cart if logged out
                 return;
             }
             setLoading(true);
             try {
                 const data = await cartApi.getCart();
-                // Backend returns items: [{ product: {...}, quantity, lineTotal }]
-                // Map it to what your UI components expect
-                const mappedItems = data.items.map(item => ({
-                    id: item.product._id,
-                    productId: item.product._id,
-                    name: item.product.name,
-                    price: item.product.price,
-                    image: item.product.image,
-                    quantity: item.quantity
-                }));
-                setCart(mappedItems);
+                mapCartData(data.items);
             } catch (error) {
                 console.error("Error fetching cart:", error);
             } finally {
                 setLoading(false);
             }
         };
-
         fetchCart();
     }, [currentUser]);
+
+    // Helper to map backend response to frontend format
+    const mapCartData = (items) => {
+        const mapped = items.map(item => ({
+            id: item.product._id,
+            productId: item.product._id,
+            name: item.product.name,
+            price: item.product.price,
+            image: item.product.images?.[0] || '', // backend stores images as array
+            quantity: item.quantity
+        }));
+        setCart(mapped);
+    };
 
     const addToCart = async (product) => {
         if (!currentUser) {
@@ -48,19 +48,9 @@ export default function CartProvider({ children }) {
             return;
         }
         try {
-            // product.id comes from the mapped UI object
             await cartApi.addItem(product.id, 1);
-            // Re-fetch cart to get updated state from DB
-            const data = await cartApi.getCart();
-            const mappedItems = data.items.map(item => ({
-                id: item.product._id,
-                productId: item.product._id,
-                name: item.product.name,
-                price: item.product.price,
-                image: item.product.image,
-                quantity: item.quantity
-            }));
-            setCart(mappedItems);
+            const data = await cartApi.getCart(); // Re-fetch to get exact state
+            mapCartData(data.items);
         } catch (error) {
             console.error("Error adding to cart:", error);
             alert(error.response?.data?.message || "Failed to add to cart");
@@ -70,7 +60,7 @@ export default function CartProvider({ children }) {
     const removeFromCart = async (productId) => {
         try {
             await cartApi.removeItem(productId);
-            setCart((currentCart) => currentCart.filter((item) => item.id !== productId));
+            setCart((current) => current.filter((item) => item.id !== productId));
         } catch (error) {
             console.error("Error removing from cart:", error);
         }
@@ -80,8 +70,8 @@ export default function CartProvider({ children }) {
         if (quantity < 1) return;
         try {
             await cartApi.updateQuantity(productId, quantity);
-            setCart((currentCart) =>
-                currentCart.map((item) =>
+            setCart((current) =>
+                current.map((item) =>
                     item.id === productId ? { ...item, quantity } : item
                 )
             );
