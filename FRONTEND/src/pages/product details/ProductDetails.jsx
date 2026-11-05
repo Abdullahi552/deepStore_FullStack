@@ -1,24 +1,36 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { Button } from "../../components/ui/button";
 import { useCart } from '../../context/CartContext';
 import { ShoppingCart, ChevronLeft, Star, ShieldCheck, Truck, RotateCcw } from 'lucide-react';
 import { Badge } from "../../components/ui/badge";
-import { useEffect, useState } from 'react';
+import { productApi } from '../../api/products';
 
 const ProductDetails = () => {
   const { productId } = useParams();
   const navigate = useNavigate();
   const { addToCart } = useCart();
-  const [products, setProducts] = useState([]);
+  const [product, setProduct] = useState(null);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-      fetch("/products.json")
-        .then(res => res.json())
-        .then(data => setProducts(data))
-        .catch(err => console.error("Error loading products:", err));
-    }, []);
-  const product = products.find(p => p.id === productId);
+    const fetchProduct = async () => {
+      try {
+        const data = await productApi.getById(productId);
+        setProduct(data);
+      } catch (err) {
+        console.error("Error loading product:", err);
+        setProduct(null);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchProduct();
+  }, [productId]);
+
+  if (loading) {
+    return <div className="text-center py-24 text-xl font-bold">Loading product details...</div>;
+  }
 
   if (!product) {
     return (
@@ -43,7 +55,7 @@ const ProductDetails = () => {
         {/* Product Image */}
         <div className="rounded-3xl overflow-hidden bg-secondary/30 aspect-square shadow-2xl">
           <img 
-            src={`/${product.image}`} 
+            src={`http://localhost:5000/public/${product.image}`} 
             alt={product.name} 
             className="w-full h-full object-cover"
           />
@@ -53,7 +65,7 @@ const ProductDetails = () => {
         <div className="space-y-8">
           <div className="space-y-4">
             <Badge variant="secondary" className="px-4 py-1 text-sm font-medium rounded-full">
-              {product.category}
+              {product.category?.name || 'Product'}
             </Badge>
             <h1 className="text-5xl font-extrabold tracking-tight">{product.name}</h1>
             <div className="flex items-center gap-4">
@@ -64,7 +76,7 @@ const ProductDetails = () => {
               </div>
               <span className="text-sm text-muted-foreground font-medium">(128 Reviews)</span>
             </div>
-            <p className="text-4xl font-bold text-accent">${product.price}</p>
+            <p className="text-4xl font-bold text-accent">${(product.price / 100).toFixed(2)}</p>
           </div>
 
           <div className="space-y-4">
@@ -109,11 +121,9 @@ const ProductDetails = () => {
               size="lg" 
               className="flex-grow h-16 rounded-2xl text-lg font-bold gap-3 shadow-xl hover:scale-[1.02] transition-all"
                onClick={() => addToCart({
-                  id: product.id,
-                  name: product.name,
-                  priceCents: product.price,   
-                  image: product.image,
-                  category: product.category
+                  ...product,
+                  id: product._id,
+                  priceCents: product.price
                 })}
             >
               <ShoppingCart className="h-6 w-6" /> Add to Cart
