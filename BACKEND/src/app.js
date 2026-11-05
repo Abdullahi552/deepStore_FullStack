@@ -15,6 +15,10 @@ import { generalLimiter } from './middleware/rateLimit.middleware.js';
 
 // Import models once so Mongoose registers them globally
 import './models/index.js';
+import path from 'path';
+import { fileURLToPath } from 'url';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const app = express();
 
@@ -43,7 +47,7 @@ app.use(cookieParser());
 if (env.NODE_ENV !== 'test') {
   app.use(morgan(env.NODE_ENV === 'production' ? 'combined' : 'dev'));
 }
-
+app.use('/public', express.static(path.join(__dirname, '../public')));
 // --- Rate limiting on all API routes ---
 app.use('/api', generalLimiter);
 

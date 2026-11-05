@@ -4,7 +4,8 @@ import { Card, CardContent, CardFooter } from "../../components/ui/card";
 import { useCart } from '../../context/CartContext';
 import { ChevronLeft, ChevronRight, Star, ShoppingCart } from 'lucide-react';
 import { Badge } from "../../components/ui/badge";
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+import { productApi } from '../../api/products';
 
 const categories = [
   { name: 'Gadget', icon: '📱' },
@@ -16,12 +17,13 @@ const categories = [
   { name: 'Bags', icon: '👜' },
   { name: 'Glasses', icon: '🕶️' }
 ];
+
 const HeroCarousel = () => {
   const [current, setCurrent] = useState(0);
   const slides = [
-    { title: 'Next-Gen Gadgets', subtitle: 'Experience the future today.', bg: 'bg-primary', image: '/slideImage/download__3_-removebg-preview.png' },
-    { title: 'Summer Collection', subtitle: 'Fresh styles for the sunny days.', bg: 'bg-accent', image: '/slideImage/summerCollection-removebg-preview.png' },
-    { title: 'Mega Sale', subtitle: 'Up to 50% off on all tech items.', bg: 'bg-primary', image: '/slideImage/megaSales-removebg-preview.png' },
+    { title: 'Next-Gen Gadgets', subtitle: 'Experience the future today.', bg: 'bg-primary', image: 'http://localhost:5000/public/slideImage/download__3_-removebg-preview.png' },
+    { title: 'Summer Collection', subtitle: 'Fresh styles for the sunny days.', bg: 'bg-accent', image: 'http://localhost:5000/public/slideImage/summerCollection-removebg-preview.png' },
+    { title: 'Mega Sale', subtitle: 'Up to 50% off on all tech items.', bg: 'bg-primary', image: 'http://localhost:5000/public/slideImage/megaSales-removebg-preview.png' },
   ];
 
   useEffect(() => {
@@ -61,7 +63,6 @@ const ProductSection = ({ title, items }) => {
   const { addToCart } = useCart();
   const navigate = useNavigate();
 
-
   return (
     <section className="py-12 container px-4 md:px-8">
       <div className="flex items-center justify-between mb-8 border-l-4 border-accent pl-4">
@@ -76,9 +77,9 @@ const ProductSection = ({ title, items }) => {
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {items.map(product => (
-          <Card key={product.id} className="group border-none shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden cursor-pointer" onClick={() => navigate(`/product/${product.id}`)}>
+          <Card key={product._id} className="group border-none shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden cursor-pointer" onClick={() => navigate(`/product/${product._id}`)}>
             <div className="relative h-64 overflow-hidden bg-secondary/30">
-              <img src={`/${product.image}`} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+              <img src={`http://localhost:5000/public/${product.image}`} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
               <div className="absolute top-3 right-3">
                 <Button size="icon" variant="secondary" className="rounded-full opacity-0 group-hover:opacity-100 transition-opacity shadow-lg">
                   <Star className="h-4 w-4 fill-amber-400 text-amber-400" />
@@ -88,15 +89,22 @@ const ProductSection = ({ title, items }) => {
             <CardContent className="pt-6">
               <div className="flex justify-between items-start mb-2">
                 <h3 className="font-bold text-lg">{product.name}</h3>
-                <span className="font-bold text-accent">${product.priceCents}</span>
+                <span className="font-bold text-accent">${(product.price / 100).toFixed(2)}</span>
               </div>
-              <p className="text-sm text-muted-foreground line-clamp-2">Premium quality {product.category.toLowerCase()} for your daily needs.</p>
+              <p className="text-sm text-muted-foreground line-clamp-2">
+                Premium quality {product.category?.name || 'product'} for your daily needs.
+              </p>
             </CardContent>
             <CardFooter className="pb-6">
               <Button
                 onClick={(e) => {
                   e.stopPropagation();
-                  addToCart(product);
+                  // Map backend fields to frontend expected fields for the current CartContext
+                  addToCart({
+                    ...product,
+                    id: product._id,
+                    priceCents: product.price
+                  });
                 }}
                 className="w-full rounded-xl gap-2 font-semibold transition-all hover:scale-[1.02]"
                 variant="default"
@@ -113,17 +121,30 @@ const ProductSection = ({ title, items }) => {
 
 const Home = () => {
   const navigate = useNavigate();
-   const [products, setProducts] = useState([]);
+  const [products, setProducts] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("/products.json")
-      .then(res => res.json())
-      .then(data => setProducts(data))
-      .catch(err => console.error("Error loading products:", err));
+    const fetchProducts = async () => {
+      try {
+        const data = await productApi.getAll();
+        setProducts(data);
+      } catch (err) {
+        console.error("Error loading products:", err);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchProducts();
   }, []);
-  const gadgets = products.filter(p => p.category === 'gadget');
-  const fashion = products.filter(p => p.category === 'fashion');
 
+  // Safely filter products by category name
+  const gadgets = products.filter(p => p.category?.name?.toLowerCase() === 'gadget');
+  const fashion = products.filter(p => p.category?.name?.toLowerCase() === 'fashion');
+
+  if (loading) {
+    return <div className="text-center py-20 text-xl font-bold">Loading products...</div>;
+  }
 
   return (
     <div className="space-y-6">
@@ -156,7 +177,7 @@ const Home = () => {
             <Button size="lg" className="bg-white text-primary hover:bg-white/90 rounded-full px-8">Claim Discount</Button>
           </div>
           <div className="mt-8 md:mt-0 opacity-20 md:opacity-100">
-             <img className="w-80 h-80 object-contain rotate-12" src="/slideImage/English_Hd_Transparent__Sale_English__Sale_Clipart__Wordart__Golden_PNG_Image_For_Free_Download-removebg-preview.png" alt="abstract modern floating geometric shapes with glowing blue lights, tech aesthetic" />
+             <img className="w-80 h-80 object-contain rotate-12" src="http://localhost:5000/public/slideImage/English_Hd_Transparent__Sale_English__Sale_Clipart__Wordart__Golden_PNG_Image_For_Free_Download-removebg-preview.png" alt="abstract modern floating geometric shapes with glowing blue lights, tech aesthetic" />
           </div>
         </div>
       </section>
