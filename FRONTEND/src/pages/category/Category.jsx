@@ -61,7 +61,7 @@ const Category = () => {
           {products.map(product => (
             <Card key={product._id} className="group border-none shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden cursor-pointer flex flex-col" onClick={() => navigate(`/product/${product._id}`)}>
               <div className="relative h-72 overflow-hidden bg-secondary/30">
-                <img src={`http://localhost:5000/public/${product.image}`} alt={product.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                <img src={`http://localhost:5000/public/${product.images?.[0] || product.image}`} alt={product.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
                 <div className="absolute top-4 right-4">
                   <Button size="icon" variant="secondary" className="rounded-full shadow-xl">
                     <Star className="h-4 w-4 fill-amber-400 text-amber-400" />

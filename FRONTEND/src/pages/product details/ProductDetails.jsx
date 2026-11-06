@@ -55,7 +55,7 @@ const ProductDetails = () => {
         {/* Product Image */}
         <div className="rounded-3xl overflow-hidden bg-secondary/30 aspect-square shadow-2xl">
           <img 
-            src={`http://localhost:5000/public/${product.image}`} 
+            src={`http://localhost:5000/public/${product.images?.[0] || product.image}`} 
             alt={product.name} 
             className="w-full h-full object-cover"
           />

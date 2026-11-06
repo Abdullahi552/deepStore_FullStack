@@ -79,7 +79,7 @@ const ProductSection = ({ title, items }) => {
         {items.map(product => (
           <Card key={product._id} className="group border-none shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden cursor-pointer" onClick={() => navigate(`/product/${product._id}`)}>
             <div className="relative h-64 overflow-hidden bg-secondary/30">
-              <img src={`http://localhost:5000/public/${product.image}`} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+              <img src={`http://localhost:5000/public/${product.images?.[0] || product.image}`} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
               <div className="absolute top-3 right-3">
                 <Button size="icon" variant="secondary" className="rounded-full opacity-0 group-hover:opacity-100 transition-opacity shadow-lg">
                   <Star className="h-4 w-4 fill-amber-400 text-amber-400" />

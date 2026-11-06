@@ -22,13 +22,18 @@ const __dirname = path.dirname(__filename);
 
 const app = express();
 
-// --- Trust proxy (for correct IP behind reverse proxies on Render/Heroku/etc.) ---
+// --- Trust proxy ---
 app.set('trust proxy', 1);
 
 // --- Security headers ---
-app.use(helmet());
+// We configure Helmet to allow cross-origin image loading
+app.use(
+  helmet({
+    crossOriginResourcePolicy: { policy: 'cross-origin' },
+  })
+);
 
-// --- CORS: only allow the configured frontend origin ---
+// --- CORS ---
 app.use(
   cors({
     origin: env.CLIENT_URL,
@@ -40,15 +45,18 @@ app.use(
 app.use(express.json({ limit: '1mb' }));
 app.use(express.urlencoded({ extended: true, limit: '1mb' }));
 
-// --- Cookie parser (refresh token may live in an httpOnly cookie) ---
+// --- Cookie parser ---
 app.use(cookieParser());
 
-// --- Request logging (skip in tests to keep output clean) ---
+// --- Request logging ---
 if (env.NODE_ENV !== 'test') {
   app.use(morgan(env.NODE_ENV === 'production' ? 'combined' : 'dev'));
 }
+
+// --- Serve static images ---
 app.use('/public', express.static(path.join(__dirname, '../public')));
-// --- Rate limiting on all API routes ---
+
+// --- Rate limiting ---
 app.use('/api', generalLimiter);
 
 // --- API documentation ---
@@ -57,10 +65,10 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 // --- Versioned API ---
 app.use('/api/v1', routes);
 
-// --- 404 handler (must come after all routes, before error handler) ---
+// --- 404 handler ---
 app.use(notFound);
 
-// --- Central error handler (must be LAST, 4-arg signature) ---
+// --- Central error handler ---
 app.use(errorHandler);
 
 export default app;
