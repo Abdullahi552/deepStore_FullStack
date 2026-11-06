@@ -11,10 +11,10 @@ function CartCard({id, name, price, image, quantity}) {
             <div className='w-full md:w-[15%] h-35 md:h-30 rounded-2xl m-auto bg-cover bg-center' style={{ backgroundImage: `url(${image})` }}></div>
             <div className='w-full flex flex-col justify-between md:w-[75%]'>
             <div className="w-full mx-auto my-6 md:mt-0 flex justify-between">
-                <p className='text-muted-foreground'>
+                <div className='text-muted-foreground'>
                     <h4 className='font-bold text-foreground text-xl'>{name}</h4>
-                    Fre standard shipping
-                </p>
+                    Free standard shipping
+                </div>
                 <h3 className='font-bold text-xl text-ring'>{`$${price}`}</h3>
             </div>
             <div className='w-full m-auto flex justify-between items-center'>
